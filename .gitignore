@@ -34,3 +34,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# selenium pictures
+*.png

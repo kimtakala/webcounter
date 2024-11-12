@@ -9,8 +9,12 @@ class Counter:
     def increment(self, amount):
         self.value = self.value + amount
 
+    def set_value(self, value):
+        self.value = value
+
     def decrease(self):
         self.value = self.value - 1
 
     def reset(self):
         self.value = self._initial_value
+        
