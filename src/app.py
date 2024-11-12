@@ -4,6 +4,8 @@ from counter import Counter
 app = Flask(__name__)
 cnt = Counter()
 
+# snarky comment
+
 @app.route("/")
 def index():
     return render_template("index.html", value=cnt.value)
